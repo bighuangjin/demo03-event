@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'demo03-event';
+  handle() {
+    alert('触发事件啦！');
+  }
 }
