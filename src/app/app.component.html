@@ -1,4 +1,7 @@
 <app-event01></app-event01>
 <app-pager></app-pager>
 <!-- 自定义事件 -->
-<app-diy-evnet (handleAllOperation)="handle()"></app-diy-evnet>
+<app-diy-evnet (handleAllOperation)="handle($event)"></app-diy-evnet>
+<!-- 双向数据绑定 -->
+<app-event03 [(fly)]="dbl"></app-event03>
+{{dbl}}

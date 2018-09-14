@@ -9,8 +9,7 @@ export class DiyEvnetComponent implements OnInit {
   @Output() handleAllOperation = new EventEmitter();
   constructor() {
     setTimeout(() => {
-      console.log('sss');
-      this.handleAllOperation.emit();
+      this.handleAllOperation.emit('sss');
     }, 1000);
   }
 
