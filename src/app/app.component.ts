@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'demo03-event';
   dbl = '';
+  dbl2 = '';
   handle(data) {
     console.log('触发事件啦！', data);
   }
